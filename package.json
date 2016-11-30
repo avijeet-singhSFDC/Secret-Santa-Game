@@ -54,6 +54,9 @@
     "shasum": "2f255e39e47d994b4482ed243fd59c5bb6942796",
     "tarball": "https://registry.npmjs.org/secret-santa/-/secret-santa-1.0.1.tgz"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
   "directories": {},
   "_resolved": "https://registry.npmjs.org/secret-santa/-/secret-santa-1.0.1.tgz"
 }
