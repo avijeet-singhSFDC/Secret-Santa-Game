@@ -1,0 +1,17 @@
+{
+  "title": "Node Secret Santa",
+  "signup-password": false,
+  "admin-password": "admin",
+  "deadline": "Dec 12th",
+  "spend-limit": "₹200",
+
+  "email-server": {
+    "type": "mailgun",
+    "api-key": "874ff48dfd8613880073c6c8d8a16b6e",
+    "from-address": "santa@thenorthpole.com"
+  },
+
+  "cookie-secret": "xxxyyyzzz111",
+  "session-secret": "zzzxxxcccc222"
+
+}

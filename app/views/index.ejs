@@ -1,0 +1,37 @@
+<% layout('layout'); %>
+<p>Welcome to <%= title %></p>
+<form action="/save" method="post">
+  <div class="row">
+    <div class="small-6 large-6 columns">
+      <div class="row">
+        <input type="text" name="name" placeholder="Your name" />
+      </div>
+
+    <div class="row">
+      <input type="email" name="email" placeholder="Email address" />
+    </div>
+
+    <div class="row">
+      <input type="text" name="colour" placeholder="Your favourite colour" />
+    </div>
+
+    <div class="row">
+      <input type="text" name="animal" placeholder="Your favourite animal" />
+    </div>
+
+    <div class="row">
+      <input type="text" name="idea" placeholder="A gift suggestion" />
+    </div>
+
+    <div class="row">
+      <input type="submit" class="button" />
+    </div>
+
+    </div>
+    <div class="small-6 large-6 columns">
+      <p>The deadline is : <%= deadline %></p>
+      <p>The spending limit is : <%= spendLimit %></p>
+    </div>
+  </div>
+
+</form>
